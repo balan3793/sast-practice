@@ -27,6 +27,6 @@ jobs:
           args: |
             -Dsonar.organization=balan3793
             -Dsonar.projectKey=sast-practice
-            -Dsonar.projectName=SAST Practice
+            -Dsonar.projectName=sast-practice
             -Dsonar.sources=.
             -Dsonar.qualitygate.wait=true
