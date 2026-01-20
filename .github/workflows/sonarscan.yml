@@ -1,4 +1,4 @@
-name: SonarCloud Analysis with Quality Gates
+name: SonarCloud Analysis with Quality Gate
 
 on:
   push:
@@ -27,6 +27,6 @@ jobs:
           args: >
             -Dsonar.organization=balan3793
             -Dsonar.projectKey=sast-practice
-            -Dsonar.projectName=SAST Practice
+            -Dsonar.projectName="SAST Practice"
             -Dsonar.sources=.
             -Dsonar.qualitygate.wait=true
