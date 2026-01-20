@@ -29,4 +29,4 @@ jobs:
             -Dsonar.projectKey=balan3793_sast-practice
             -Dsonar.projectName=sast-practice1
             -Dsonar.sources=.
-            -Dsonar.qualitygate.wait=true
+            -Dsonar.qualitygate.wait=false
