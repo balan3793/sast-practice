@@ -24,9 +24,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          args: >
+          args: |
             -Dsonar.organization=balan3793
             -Dsonar.projectKey=sast-practice
-            -Dsonar.projectName="SAST Practice"
+            -Dsonar.projectName=SAST Practice
             -Dsonar.sources=.
             -Dsonar.qualitygate.wait=true
