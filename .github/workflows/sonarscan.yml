@@ -1,4 +1,4 @@
-name: SonarCloud Analysis with Quality Gate
+name: SonarCloud Analysis with Quality Gates
 
 on:
   push:
